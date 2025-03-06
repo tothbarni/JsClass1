@@ -19,7 +19,7 @@ class Ember {
             <p>${this.magassag}</p>
         </div>
         `;
-    this.szuloElem.innerHTML = html;
+    this.szuloElem.innerHTML += html;
     console.log(html);
   }
   // getter kor értékéhez
